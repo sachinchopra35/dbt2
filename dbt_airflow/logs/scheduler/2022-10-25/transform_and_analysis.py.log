@@ -96,3 +96,10 @@ NameError: name 'os' is not defined
 [2022-10-25 15:04:51,234] {logging_mixin.py:115} INFO - [2022-10-25 15:04:51,234] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-10-25 15:04:51,834] {logging_mixin.py:115} INFO - [2022-10-25 15:04:51,834] {dag.py:2919} INFO - Setting next_dagrun for 2_daily_transformation_analysis to None, run_after=None
 [2022-10-25 15:04:51,937] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.984 seconds
+[2022-10-25 15:05:22,896] {processor.py:153} INFO - Started process (PID=581) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:05:22,897] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-25 15:05:22,898] {logging_mixin.py:115} INFO - [2022-10-25 15:05:22,898] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:05:22,929] {processor.py:651} INFO - DAG(s) dict_keys(['2_daily_transformation_analysis']) retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:05:22,971] {logging_mixin.py:115} INFO - [2022-10-25 15:05:22,970] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-25 15:05:23,222] {logging_mixin.py:115} INFO - [2022-10-25 15:05:23,222] {dag.py:2919} INFO - Setting next_dagrun for 2_daily_transformation_analysis to None, run_after=None
+[2022-10-25 15:05:23,292] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.402 seconds
