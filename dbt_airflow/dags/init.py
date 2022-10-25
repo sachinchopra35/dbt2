@@ -4,7 +4,7 @@ import os
 from airflow import DAG
 from airflow.operators.python import PythonOperator, BranchPythonOperator
 from airflow.operators.bash import BashOperator
-from airflow.operators.dummy_operator import DummyOperator
+from airflow.operators.empty import EmptyOperator
 
 default_args = {
     'owner': 'airflow',
@@ -17,7 +17,7 @@ default_args = {
 with DAG('1_init_once_seed_data', default_args=default_args, schedule_interval='@once') as dag:
     task_1 = BashOperator(
         task_id='load_seed_data_once',
-        bash_command='cd /dbt && dbt seed --profiles-dir .',
+        bash_command='cd /dbt_project && dbt seed --profiles-dir .',
         env={
             'dbt_user': '{{ var.value.dbt_user }}',
             'dbt_password': '{{ var.value.dbt_password }}',
