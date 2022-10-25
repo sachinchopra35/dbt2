@@ -1,0 +1,91 @@
+[2022-10-25 15:00:15,381] {processor.py:153} INFO - Started process (PID=51) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:00:15,383] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-25 15:00:15,384] {logging_mixin.py:115} INFO - [2022-10-25 15:00:15,384] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:00:15,490] {logging_mixin.py:115} INFO - [2022-10-25 15:00:15,482] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 22, in <module>
+    **os.environ
+NameError: name 'os' is not defined
+[2022-10-25 15:00:15,493] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:00:15,607] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.232 seconds
+[2022-10-25 15:00:50,593] {processor.py:153} INFO - Started process (PID=106) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:00:50,601] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-25 15:00:50,603] {logging_mixin.py:115} INFO - [2022-10-25 15:00:50,603] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:00:50,683] {logging_mixin.py:115} INFO - [2022-10-25 15:00:50,677] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 22, in <module>
+    **os.environ
+NameError: name 'os' is not defined
+[2022-10-25 15:00:50,685] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:00:50,797] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.212 seconds
+[2022-10-25 15:01:20,859] {processor.py:153} INFO - Started process (PID=159) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:01:20,860] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-25 15:01:20,862] {logging_mixin.py:115} INFO - [2022-10-25 15:01:20,861] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:01:20,895] {logging_mixin.py:115} INFO - [2022-10-25 15:01:20,889] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 22, in <module>
+    **os.environ
+NameError: name 'os' is not defined
+[2022-10-25 15:01:20,897] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:01:20,929] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.076 seconds
+[2022-10-25 15:01:39,386] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:01:39,393] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-25 15:01:39,396] {logging_mixin.py:115} INFO - [2022-10-25 15:01:39,395] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:01:39,578] {processor.py:651} INFO - DAG(s) dict_keys(['2_daily_transformation_analysis']) retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:01:40,375] {logging_mixin.py:115} INFO - [2022-10-25 15:01:40,375] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-25 15:01:40,437] {logging_mixin.py:115} INFO - [2022-10-25 15:01:40,437] {dag.py:2919} INFO - Setting next_dagrun for 2_daily_transformation_analysis to None, run_after=None
+[2022-10-25 15:01:40,481] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 1.111 seconds
+[2022-10-25 15:01:45,334] {processor.py:153} INFO - Started process (PID=203) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:01:45,336] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-25 15:01:45,337] {logging_mixin.py:115} INFO - [2022-10-25 15:01:45,337] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:01:45,446] {processor.py:651} INFO - DAG(s) dict_keys(['2_daily_transformation_analysis']) retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:01:45,491] {logging_mixin.py:115} INFO - [2022-10-25 15:01:45,490] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-25 15:01:45,880] {logging_mixin.py:115} INFO - [2022-10-25 15:01:45,880] {dag.py:2919} INFO - Setting next_dagrun for 2_daily_transformation_analysis to None, run_after=None
+[2022-10-25 15:01:45,915] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.594 seconds
+[2022-10-25 15:02:16,294] {processor.py:153} INFO - Started process (PID=257) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:02:16,295] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-25 15:02:16,298] {logging_mixin.py:115} INFO - [2022-10-25 15:02:16,298] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:02:16,457] {processor.py:651} INFO - DAG(s) dict_keys(['2_daily_transformation_analysis']) retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:02:16,587] {logging_mixin.py:115} INFO - [2022-10-25 15:02:16,587] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-25 15:02:16,995] {logging_mixin.py:115} INFO - [2022-10-25 15:02:16,995] {dag.py:2919} INFO - Setting next_dagrun for 2_daily_transformation_analysis to None, run_after=None
+[2022-10-25 15:02:17,027] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.754 seconds
+[2022-10-25 15:02:47,530] {processor.py:153} INFO - Started process (PID=311) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:02:47,532] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-25 15:02:47,534] {logging_mixin.py:115} INFO - [2022-10-25 15:02:47,533] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:02:47,578] {processor.py:651} INFO - DAG(s) dict_keys(['2_daily_transformation_analysis']) retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:02:47,656] {logging_mixin.py:115} INFO - [2022-10-25 15:02:47,656] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-25 15:02:48,010] {logging_mixin.py:115} INFO - [2022-10-25 15:02:48,010] {dag.py:2919} INFO - Setting next_dagrun for 2_daily_transformation_analysis to None, run_after=None
+[2022-10-25 15:02:48,056] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.534 seconds
+[2022-10-25 15:03:18,186] {processor.py:153} INFO - Started process (PID=365) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:03:18,187] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-25 15:03:18,189] {logging_mixin.py:115} INFO - [2022-10-25 15:03:18,188] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:03:18,231] {processor.py:651} INFO - DAG(s) dict_keys(['2_daily_transformation_analysis']) retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:03:18,294] {logging_mixin.py:115} INFO - [2022-10-25 15:03:18,294] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-25 15:03:18,595] {logging_mixin.py:115} INFO - [2022-10-25 15:03:18,595] {dag.py:2919} INFO - Setting next_dagrun for 2_daily_transformation_analysis to None, run_after=None
+[2022-10-25 15:03:18,627] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.449 seconds
+[2022-10-25 15:03:48,998] {processor.py:153} INFO - Started process (PID=419) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:03:49,012] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-25 15:03:49,014] {logging_mixin.py:115} INFO - [2022-10-25 15:03:49,014] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:03:49,084] {processor.py:651} INFO - DAG(s) dict_keys(['2_daily_transformation_analysis']) retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:03:49,167] {logging_mixin.py:115} INFO - [2022-10-25 15:03:49,167] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-25 15:03:49,493] {logging_mixin.py:115} INFO - [2022-10-25 15:03:49,492] {dag.py:2919} INFO - Setting next_dagrun for 2_daily_transformation_analysis to None, run_after=None
+[2022-10-25 15:03:49,522] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.531 seconds
+[2022-10-25 15:04:20,055] {processor.py:153} INFO - Started process (PID=474) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:04:20,057] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-25 15:04:20,058] {logging_mixin.py:115} INFO - [2022-10-25 15:04:20,058] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:04:20,100] {processor.py:651} INFO - DAG(s) dict_keys(['2_daily_transformation_analysis']) retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-25 15:04:20,162] {logging_mixin.py:115} INFO - [2022-10-25 15:04:20,162] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-25 15:04:20,360] {logging_mixin.py:115} INFO - [2022-10-25 15:04:20,360] {dag.py:2919} INFO - Setting next_dagrun for 2_daily_transformation_analysis to None, run_after=None
+[2022-10-25 15:04:20,381] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.332 seconds
