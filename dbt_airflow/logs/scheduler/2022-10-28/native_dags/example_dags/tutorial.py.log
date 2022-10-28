@@ -1,0 +1,80 @@
+[2022-10-28 08:26:47,439] {processor.py:153} INFO - Started process (PID=7480) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2022-10-28 08:26:47,440] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-10-28 08:26:47,441] {logging_mixin.py:115} INFO - [2022-10-28 08:26:47,441] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2022-10-28 08:26:47,598] {logging_mixin.py:115} INFO - [2022-10-28 08:26:47,594] {dagbag.py:320} ERROR - Failed to import: /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py", line 33, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-28 08:26:47,638] {processor.py:653} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2022-10-28 08:26:48,291] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.914 seconds
+[2022-10-28 08:27:19,180] {processor.py:153} INFO - Started process (PID=7525) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2022-10-28 08:27:19,181] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-10-28 08:27:19,183] {logging_mixin.py:115} INFO - [2022-10-28 08:27:19,183] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2022-10-28 08:27:19,193] {logging_mixin.py:115} INFO - [2022-10-28 08:27:19,191] {dagbag.py:320} ERROR - Failed to import: /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py", line 33, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-28 08:27:19,194] {processor.py:653} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2022-10-28 08:27:19,255] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.081 seconds
+[2022-10-28 08:27:49,687] {processor.py:153} INFO - Started process (PID=7571) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2022-10-28 08:27:49,689] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-10-28 08:27:49,690] {logging_mixin.py:115} INFO - [2022-10-28 08:27:49,690] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2022-10-28 08:27:49,702] {logging_mixin.py:115} INFO - [2022-10-28 08:27:49,700] {dagbag.py:320} ERROR - Failed to import: /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py", line 33, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-28 08:27:49,705] {processor.py:653} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2022-10-28 08:27:49,782] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.100 seconds
+[2022-10-28 08:28:20,165] {processor.py:153} INFO - Started process (PID=7627) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2022-10-28 08:28:20,173] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-10-28 08:28:20,174] {logging_mixin.py:115} INFO - [2022-10-28 08:28:20,174] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2022-10-28 08:28:20,182] {logging_mixin.py:115} INFO - [2022-10-28 08:28:20,180] {dagbag.py:320} ERROR - Failed to import: /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py", line 33, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-28 08:28:20,188] {processor.py:653} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2022-10-28 08:28:20,261] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.101 seconds

@@ -1,0 +1,840 @@
+[2022-10-27 11:01:48,637] {processor.py:153} INFO - Started process (PID=5244) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:01:48,653] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:01:48,699] {logging_mixin.py:115} INFO - [2022-10-27 11:01:48,699] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:01:49,527] {logging_mixin.py:115} INFO - [2022-10-27 11:01:49,309] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:01:49,558] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:01:52,083] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 3.500 seconds
+[2022-10-27 11:02:31,955] {processor.py:153} INFO - Started process (PID=5298) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:02:31,957] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:02:31,974] {logging_mixin.py:115} INFO - [2022-10-27 11:02:31,974] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:02:32,097] {logging_mixin.py:115} INFO - [2022-10-27 11:02:32,057] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:02:32,098] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:02:32,220] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.295 seconds
+[2022-10-27 11:03:02,461] {processor.py:153} INFO - Started process (PID=5349) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:03:02,464] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:03:02,467] {logging_mixin.py:115} INFO - [2022-10-27 11:03:02,467] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:03:02,539] {logging_mixin.py:115} INFO - [2022-10-27 11:03:02,531] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:03:02,540] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:03:02,615] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.160 seconds
+[2022-10-27 11:03:32,735] {processor.py:153} INFO - Started process (PID=5406) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:03:32,737] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:03:32,738] {logging_mixin.py:115} INFO - [2022-10-27 11:03:32,738] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:03:32,860] {logging_mixin.py:115} INFO - [2022-10-27 11:03:32,843] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:03:32,861] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:03:32,971] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.243 seconds
+[2022-10-27 11:04:03,081] {processor.py:153} INFO - Started process (PID=5460) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:04:03,083] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:04:03,084] {logging_mixin.py:115} INFO - [2022-10-27 11:04:03,084] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:04:03,327] {logging_mixin.py:115} INFO - [2022-10-27 11:04:03,291] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:04:03,344] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:04:03,466] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.391 seconds
+[2022-10-27 11:04:34,483] {processor.py:153} INFO - Started process (PID=5509) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:04:34,498] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:04:34,516] {logging_mixin.py:115} INFO - [2022-10-27 11:04:34,515] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:04:34,654] {logging_mixin.py:115} INFO - [2022-10-27 11:04:34,639] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:04:34,655] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:04:34,804] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.334 seconds
+[2022-10-27 11:05:05,269] {processor.py:153} INFO - Started process (PID=5555) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:05:05,271] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:05:05,273] {logging_mixin.py:115} INFO - [2022-10-27 11:05:05,273] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:05:05,338] {logging_mixin.py:115} INFO - [2022-10-27 11:05:05,324] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:05:05,344] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:05:05,427] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.170 seconds
+[2022-10-27 11:05:35,981] {processor.py:153} INFO - Started process (PID=5604) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:05:35,989] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:05:35,991] {logging_mixin.py:115} INFO - [2022-10-27 11:05:35,991] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:05:36,141] {logging_mixin.py:115} INFO - [2022-10-27 11:05:36,130] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:05:36,142] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:05:36,244] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.270 seconds
+[2022-10-27 11:06:07,025] {processor.py:153} INFO - Started process (PID=5655) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:06:07,040] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:06:07,054] {logging_mixin.py:115} INFO - [2022-10-27 11:06:07,054] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:06:07,389] {logging_mixin.py:115} INFO - [2022-10-27 11:06:07,329] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:06:07,514] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:06:07,956] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.949 seconds
+[2022-10-27 11:06:38,211] {processor.py:153} INFO - Started process (PID=5700) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:06:38,224] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:06:38,227] {logging_mixin.py:115} INFO - [2022-10-27 11:06:38,227] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:06:38,336] {logging_mixin.py:115} INFO - [2022-10-27 11:06:38,321] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:06:38,338] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:06:38,439] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.249 seconds
+[2022-10-27 11:07:09,008] {processor.py:153} INFO - Started process (PID=5753) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:07:09,010] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:07:09,011] {logging_mixin.py:115} INFO - [2022-10-27 11:07:09,011] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:07:09,074] {logging_mixin.py:115} INFO - [2022-10-27 11:07:09,046] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:07:09,075] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:07:09,236] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.235 seconds
+[2022-10-27 11:07:40,254] {processor.py:153} INFO - Started process (PID=5806) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:07:40,271] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:07:40,284] {logging_mixin.py:115} INFO - [2022-10-27 11:07:40,284] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:07:40,499] {logging_mixin.py:115} INFO - [2022-10-27 11:07:40,427] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:07:40,501] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:07:40,661] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.433 seconds
+[2022-10-27 11:08:13,447] {processor.py:153} INFO - Started process (PID=5860) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:08:13,506] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:08:13,539] {logging_mixin.py:115} INFO - [2022-10-27 11:08:13,539] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:08:14,722] {logging_mixin.py:115} INFO - [2022-10-27 11:08:14,634] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:08:14,738] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:08:15,105] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 1.665 seconds
+[2022-10-27 11:08:45,570] {processor.py:153} INFO - Started process (PID=5912) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:08:45,574] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:08:45,577] {logging_mixin.py:115} INFO - [2022-10-27 11:08:45,577] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:08:45,714] {logging_mixin.py:115} INFO - [2022-10-27 11:08:45,681] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:08:45,719] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:08:45,835] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.274 seconds
+[2022-10-27 11:09:16,118] {processor.py:153} INFO - Started process (PID=5959) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:09:16,119] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:09:16,123] {logging_mixin.py:115} INFO - [2022-10-27 11:09:16,122] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:09:16,187] {logging_mixin.py:115} INFO - [2022-10-27 11:09:16,176] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:09:16,189] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:09:16,256] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.147 seconds
+[2022-10-27 11:09:47,240] {processor.py:153} INFO - Started process (PID=6013) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:09:47,254] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:09:47,257] {logging_mixin.py:115} INFO - [2022-10-27 11:09:47,257] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:09:47,432] {logging_mixin.py:115} INFO - [2022-10-27 11:09:47,384] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:09:47,433] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:09:47,600] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.378 seconds
+[2022-10-27 11:10:17,770] {processor.py:153} INFO - Started process (PID=6058) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:10:17,772] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:10:17,774] {logging_mixin.py:115} INFO - [2022-10-27 11:10:17,773] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:10:17,819] {logging_mixin.py:115} INFO - [2022-10-27 11:10:17,806] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:10:17,820] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:10:17,872] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.109 seconds
+[2022-10-27 11:10:47,989] {processor.py:153} INFO - Started process (PID=6110) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:10:47,990] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:10:47,992] {logging_mixin.py:115} INFO - [2022-10-27 11:10:47,992] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:10:48,032] {logging_mixin.py:115} INFO - [2022-10-27 11:10:48,023] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:10:48,034] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:10:48,084] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.104 seconds
+[2022-10-27 11:11:21,550] {processor.py:153} INFO - Started process (PID=6163) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:11:21,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:11:21,645] {logging_mixin.py:115} INFO - [2022-10-27 11:11:21,644] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:11:23,205] {logging_mixin.py:115} INFO - [2022-10-27 11:11:23,145] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:11:23,209] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:11:23,366] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 1.835 seconds
+[2022-10-27 11:11:54,014] {processor.py:153} INFO - Started process (PID=6217) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:11:54,021] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:11:54,023] {logging_mixin.py:115} INFO - [2022-10-27 11:11:54,023] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:11:54,138] {logging_mixin.py:115} INFO - [2022-10-27 11:11:54,097] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:11:54,139] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:11:54,261] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.253 seconds
+[2022-10-27 11:12:24,362] {processor.py:153} INFO - Started process (PID=6268) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:12:24,363] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:12:24,364] {logging_mixin.py:115} INFO - [2022-10-27 11:12:24,364] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:12:24,411] {logging_mixin.py:115} INFO - [2022-10-27 11:12:24,400] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:12:24,412] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:12:24,510] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.153 seconds
+[2022-10-27 11:12:55,179] {processor.py:153} INFO - Started process (PID=6321) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:12:55,180] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:12:55,181] {logging_mixin.py:115} INFO - [2022-10-27 11:12:55,181] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:12:55,222] {logging_mixin.py:115} INFO - [2022-10-27 11:12:55,214] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:12:55,223] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:12:55,277] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.104 seconds
+[2022-10-27 11:13:25,476] {processor.py:153} INFO - Started process (PID=6374) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:13:25,487] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:13:25,502] {logging_mixin.py:115} INFO - [2022-10-27 11:13:25,502] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:13:25,655] {logging_mixin.py:115} INFO - [2022-10-27 11:13:25,627] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:13:25,657] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:13:25,837] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.383 seconds
+[2022-10-27 11:13:57,849] {processor.py:153} INFO - Started process (PID=6428) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:13:57,864] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:13:57,870] {logging_mixin.py:115} INFO - [2022-10-27 11:13:57,869] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:13:58,570] {logging_mixin.py:115} INFO - [2022-10-27 11:13:58,296] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:13:58,579] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:13:59,015] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 1.187 seconds
+[2022-10-27 11:14:29,949] {processor.py:153} INFO - Started process (PID=6473) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:14:29,963] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:14:29,971] {logging_mixin.py:115} INFO - [2022-10-27 11:14:29,971] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:14:30,246] {logging_mixin.py:115} INFO - [2022-10-27 11:14:30,186] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:14:30,249] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:14:30,529] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.617 seconds
+[2022-10-27 11:15:00,759] {processor.py:153} INFO - Started process (PID=6525) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:15:00,762] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:15:00,770] {logging_mixin.py:115} INFO - [2022-10-27 11:15:00,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:15:00,840] {logging_mixin.py:115} INFO - [2022-10-27 11:15:00,827] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:15:00,841] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:15:00,925] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.182 seconds
+[2022-10-27 11:15:31,340] {processor.py:153} INFO - Started process (PID=6585) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:15:31,342] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:15:31,351] {logging_mixin.py:115} INFO - [2022-10-27 11:15:31,351] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:15:31,405] {logging_mixin.py:115} INFO - [2022-10-27 11:15:31,389] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:15:31,407] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:15:31,477] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.146 seconds
+[2022-10-27 11:16:01,855] {processor.py:153} INFO - Started process (PID=6639) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:16:01,858] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:16:01,870] {logging_mixin.py:115} INFO - [2022-10-27 11:16:01,870] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:16:02,004] {logging_mixin.py:115} INFO - [2022-10-27 11:16:01,974] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:16:02,005] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:16:02,117] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.301 seconds
+[2022-10-27 11:16:34,186] {processor.py:153} INFO - Started process (PID=6692) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:16:34,209] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:16:34,252] {logging_mixin.py:115} INFO - [2022-10-27 11:16:34,252] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:16:34,667] {logging_mixin.py:115} INFO - [2022-10-27 11:16:34,597] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:16:34,687] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:16:34,948] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.770 seconds
+[2022-10-27 11:17:05,299] {processor.py:153} INFO - Started process (PID=6736) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:17:05,301] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:17:05,305] {logging_mixin.py:115} INFO - [2022-10-27 11:17:05,304] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:17:05,397] {logging_mixin.py:115} INFO - [2022-10-27 11:17:05,373] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:17:05,400] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:17:05,522] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.233 seconds
+[2022-10-27 11:17:35,938] {processor.py:153} INFO - Started process (PID=6789) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:17:35,939] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:17:35,944] {logging_mixin.py:115} INFO - [2022-10-27 11:17:35,941] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:17:36,074] {logging_mixin.py:115} INFO - [2022-10-27 11:17:36,052] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:17:36,084] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:17:36,214] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.292 seconds
+[2022-10-27 11:18:06,418] {processor.py:153} INFO - Started process (PID=6850) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:18:06,420] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:18:06,422] {logging_mixin.py:115} INFO - [2022-10-27 11:18:06,421] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:18:06,472] {logging_mixin.py:115} INFO - [2022-10-27 11:18:06,463] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:18:06,473] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:18:06,543] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.137 seconds
+[2022-10-27 11:18:36,742] {processor.py:153} INFO - Started process (PID=6904) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:18:36,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:18:36,748] {logging_mixin.py:115} INFO - [2022-10-27 11:18:36,747] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:18:36,813] {logging_mixin.py:115} INFO - [2022-10-27 11:18:36,795] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:18:36,814] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:18:36,886] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.152 seconds
+[2022-10-27 11:19:07,781] {processor.py:153} INFO - Started process (PID=6957) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:19:07,782] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:19:07,784] {logging_mixin.py:115} INFO - [2022-10-27 11:19:07,784] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:19:07,845] {logging_mixin.py:115} INFO - [2022-10-27 11:19:07,834] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:19:07,847] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:19:07,931] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.159 seconds
+[2022-10-27 11:19:38,776] {processor.py:153} INFO - Started process (PID=7011) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:19:38,778] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:19:38,779] {logging_mixin.py:115} INFO - [2022-10-27 11:19:38,779] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:19:38,822] {logging_mixin.py:115} INFO - [2022-10-27 11:19:38,816] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:19:38,825] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:19:38,885] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.121 seconds
+[2022-10-27 11:20:09,144] {processor.py:153} INFO - Started process (PID=7064) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:20:09,145] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:20:09,147] {logging_mixin.py:115} INFO - [2022-10-27 11:20:09,147] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:20:09,182] {logging_mixin.py:115} INFO - [2022-10-27 11:20:09,174] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:20:09,184] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:20:09,238] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.101 seconds
+[2022-10-27 11:20:39,984] {processor.py:153} INFO - Started process (PID=7119) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:20:39,986] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:20:39,988] {logging_mixin.py:115} INFO - [2022-10-27 11:20:39,987] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:20:40,047] {logging_mixin.py:115} INFO - [2022-10-27 11:20:40,034] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:20:40,048] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:20:40,107] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.132 seconds
+[2022-10-27 11:21:11,015] {processor.py:153} INFO - Started process (PID=7172) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:21:11,016] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:21:11,020] {logging_mixin.py:115} INFO - [2022-10-27 11:21:11,020] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:21:11,073] {logging_mixin.py:115} INFO - [2022-10-27 11:21:11,065] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:21:11,075] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:21:11,139] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.140 seconds
+[2022-10-27 11:21:41,619] {processor.py:153} INFO - Started process (PID=7226) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:21:41,622] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:21:41,624] {logging_mixin.py:115} INFO - [2022-10-27 11:21:41,624] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:21:41,673] {logging_mixin.py:115} INFO - [2022-10-27 11:21:41,663] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:21:41,674] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:21:41,783] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.173 seconds
+[2022-10-27 11:22:12,025] {processor.py:153} INFO - Started process (PID=7286) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:22:12,029] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:22:12,031] {logging_mixin.py:115} INFO - [2022-10-27 11:22:12,030] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:22:12,080] {logging_mixin.py:115} INFO - [2022-10-27 11:22:12,060] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:22:12,081] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:22:12,146] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.130 seconds
+[2022-10-27 11:22:42,670] {processor.py:153} INFO - Started process (PID=7343) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:22:42,673] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:22:42,675] {logging_mixin.py:115} INFO - [2022-10-27 11:22:42,674] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:22:42,763] {logging_mixin.py:115} INFO - [2022-10-27 11:22:42,746] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:22:42,766] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:22:42,839] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 0.176 seconds
+[2022-10-27 11:23:13,419] {processor.py:153} INFO - Started process (PID=7395) to work on /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:23:13,446] {processor.py:641} INFO - Processing file /opt/airflow/dags/transform_and_analysis.py for tasks to queue
+[2022-10-27 11:23:13,452] {logging_mixin.py:115} INFO - [2022-10-27 11:23:13,452] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:23:14,303] {logging_mixin.py:115} INFO - [2022-10-27 11:23:14,062] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/transform_and_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transform_and_analysis.py", line 3, in <module>
+    from airflow.operators.bash import BashOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 23, in <module>
+    from airflow.hooks.subprocess import SubprocessHook
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in <module>
+    class SubprocessHook(BaseHook):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/subprocess.py", line 30, in SubprocessHook
+    class SubprocessHook(BaseHook):
+SystemError: unknown opcode
+[2022-10-27 11:23:14,327] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_and_analysis.py
+[2022-10-27 11:23:14,516] {processor.py:161} INFO - Processing /opt/airflow/dags/transform_and_analysis.py took 1.105 seconds
