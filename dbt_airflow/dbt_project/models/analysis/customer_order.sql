@@ -7,7 +7,8 @@
 SELECT
 c.customer_id,
 c.customer_state,
+c.customer_city,
 o.order_id
 FROM {{ref('customer')}}  AS c
-JOIN {{ref('order')}} AS o
-ON c.customer_id = o.customer_id;
+JOIN {{ref('orders')}} AS o
+ON c.customer_id = o.customer_id
