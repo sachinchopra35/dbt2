@@ -53,3 +53,14 @@ Happy modeling!
 
 [0m15:18:53.948841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8dcb16310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8de5b4390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8dcb0fe50>]}
 [0m15:18:53.950181 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-03 15:13:18.260082 | 50619574-2709-4c85-8abe-5324de73a27a ==============================
+[0m15:13:18.260106 [info ] [MainThread]: Running with dbt=1.3.0
+[0m15:13:18.262110 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/sachinchopra/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m15:13:18.264130 [debug] [MainThread]: Tracking: tracking
+[0m15:13:18.268660 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b23d56b00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b23d56890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b23d56a40>]}
+[0m15:13:18.271215 [info ] [MainThread]: Creating dbt configuration folder at /home/sachinchopra/.dbt
+[0m15:13:47.912393 [info ] [MainThread]: A project called dbt_project already exists here.
+[0m15:13:47.914109 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b23d56590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b23d567a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b23d56860>]}
+[0m15:13:47.916064 [debug] [MainThread]: Flushing usage events
