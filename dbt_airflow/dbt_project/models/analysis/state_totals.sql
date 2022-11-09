@@ -1,4 +1,5 @@
 WITH a AS (
+    SELECT
     o.customer_id,
     o.customer_state,
     o.order_id,

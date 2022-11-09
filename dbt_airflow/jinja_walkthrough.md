@@ -12,6 +12,11 @@ Note: it may be beneficial to first go through this (as well as the main dbt tut
 - Create and show variables using Jinja
 - Create and apply macros using Jinja
 
+<br>
+
+- Debugging tip - go to `targets`, then copy and paste and run the compiled code on Snowflake
+- Don't call any dataset `order.sql` - call it `orders.csv` instead
+
 ## 1. Set up the DBT project
 - This will be the longest step, and involves following separate instructions (see `adapted_setup.md` and the other files referenced by this)
 
