@@ -4,7 +4,7 @@ WITH a AS (
     customer_state,
     order_id
     FROM {{ref('customer_order')}}
-)
+),
 
 b AS (
     SELECT
@@ -14,9 +14,10 @@ b AS (
 )
 
 SELECT
-    a.customer_state
-    SUM(b.payment_value) AS total_payment,
-FROM a JOIN b 
+    a.customer_state,
+    SUM(b.payment_value) AS total_payment
+FROM a
+JOIN b 
 ON a.order_id = b.order_id
-GROUP BY customer_state
-ORDER BY customer_state
+GROUP BY a.customer_state
+ORDER BY a.customer_state

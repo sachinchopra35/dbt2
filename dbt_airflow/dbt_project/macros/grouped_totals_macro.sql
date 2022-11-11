@@ -6,7 +6,7 @@ WITH a AS (
     {{city_or_state}},
     order_id
     FROM {{ref('customer_order')}}
-)
+),
 
 b AS (
     SELECT
@@ -16,8 +16,8 @@ b AS (
 )
 
 SELECT
-    a.{{city_or_state}}
-    SUM(b.payment_value) AS total_payment,
+    a.{{city_or_state}},
+    SUM(b.payment_value) AS total_payment
 FROM a JOIN b 
 ON a.order_id = b.order_id
 GROUP BY {{city_or_state}}
