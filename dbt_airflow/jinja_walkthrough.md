@@ -1,3 +1,14 @@
+## To be done before this:
+- Basics of DBT (Jaffle shop)
+- ?
+
+## To be done after this:
+- Airflow setup (using WSL) and run the same project
+- Integrate DBT testing
+- ?
+
+---
+
 # Jinja2 - basics walkthrough
 
 - First, go through this (as well as the main dbt tutorial) WITHOUT using Airflow
@@ -98,26 +109,9 @@ FROM {{ ref('olist_customer_dataset') }}
 - Try running all 3 of these and ensure that they give the same result
 - As an extension, create a macro that will select whichever columns you want, from whichever dataset (hint: as with Python functions, a Jinja macro can take in several parameters - for example, one can be a dataset name, one can be a list of required columns)
 
-- In exercise 6, you will see another use of `for` loops, which can save a lot of lines of code.
+- In exercise 7, you will see another use of `for` loops, which can save a lot of lines of code.
 
-## 6. Using a `for` loop 2
-
-- Here is another example of using a `for` loop, which can save you some lines of code
-
-```
-SELECT
-order_id
-, {% for payment_type in ["credit_card", "debit_card", "boleto", "voucher"] %}
-SUM(CASE WHEN payment_type = '{{payment_type}}' THEN payment_value END) as {{payment_type}}_amount,
-{% endfor %}
-SUM(payment_value) AS total_amount
-FROM {{ ref('olist_order_payments_dataset') }}
-GROUP BY order_id
-```
-- To test your understanding, re-write this but set the list of payment types as a variable *before* starting the `for` loop. Check that it gives the same result
-- If there are more than 4 payment types, then the use of this `for` loop syntax would save you even more lines
-
-## 7. Macro task: finding the total amound paid from each City or State
+## 6. Macro task: finding the total amound paid from each City or State
 
 The code below uses the 3 datasets to find out how much money has been paid from each **State** in Brazil:
 ```
@@ -161,9 +155,23 @@ WITH a AS (
 {{ get_total_paid_by_partition('customer_city') }}
 ```
 - Check that this code successfully calls the macro and finds the total paid from each **City**
-- Simply change the parameter 'customer_city' to 'customer_state' in the model, and see if this successfully finds the total paid from each **State**
+- Simply change the parameter `'customer_city'` to `'customer_state'` in the model, and see if this successfully finds the total paid from each **State**
 - Equally, try changing the parameter to 'customer_zip_code_prefix'
 - This macro has saved you from needing 3 separate large models. All you needed was to change the macro's parameter to allow you you find the different set of totals.
+
+## 7. Combining Macros and `for` loops
+
+- Here is an example of how to run one macro for several parameters, using a `for` loop
+
+```
+{% for city_or_state in ["customer_city", "customer_state"] %}
+
+{{ get_total_paid_by_partition('city_or_state') }}
+
+{% endfor %}
+```
+
+- Try editing this now. Instead of defining the list `["customer_city", "customer_state"]` within the `for` loops definition, try setting this as a variable before the `for` loop
 
 
 ## Summary
