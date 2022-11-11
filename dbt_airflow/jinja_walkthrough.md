@@ -5,7 +5,8 @@
 
 # Jinja2 - basics walkthrough
 
-Note: it may be beneficial to first go through this (as well as the main dbt tutorial) WITHOUT using Airflow, so that you get an idea of how dbt works locally. Then, the activity can be extended to using Airflow.
+- First, go through this (as well as the main dbt tutorial) WITHOUT using Airflow
+- The next step is to define DAGS etc., then use Airflow to download the data from Kaggle then run the same commands 
 
 ## Aim:
 - Understand the benefits of referencing databases using Jinja in DBT (compared to using regular SQL syntax)
@@ -102,7 +103,7 @@ FROM {{ ref('olist_customer_dataset') }}
 - Try running all 3 of these and ensure that they give the same result
 - As an extension, create a macro that will select whichever columns you want, from whichever dataset (hint: as with Python functions, a Jinja macro can take in several parameters - for example, one can be a dataset name, one can be a list of required columns)
 
--- N.B: potentially add another for-loop exercise that shows how it can give dryer code. For example, summing over the number of sequential payments made by card / boleto.
+- In exercise 7, you will see another use of `for` loops, which can save a lot of lines of code.
 
 ## 6. Macro task: finding the total amound paid from each City or State
 
@@ -110,19 +111,24 @@ The code below uses the 3 datasets to find out how much money has been paid from
 ```
 WITH a AS (
     SELECT
-    o.customer_id,
-    o.customer_state,
-    o.order_id,
-    p.payment_value
-    FROM {{ref('customer_order')}} AS o
-    JOIN {{ref('payment')}} AS p
-    ON o.order_id = p.order_id
+    customer_id,
+    customer_state,
+    order_id
+    FROM {{ref('customer_order')}}
+)
+
+b AS (
+    SELECT
+    order_id,
+    payment_value
+    FROM {{ref('payment')}}
 )
 
 SELECT
-    SUM(payment_value) AS total_payment,
-    customer_state
-FROM a
+    a.customer_state
+    SUM(b.payment_value) AS total_payment,
+FROM a JOIN b 
+ON a.order_id = b.order_id
 GROUP BY customer_state
 ORDER BY customer_state
 ```
@@ -134,11 +140,11 @@ ORDER BY customer_state
 
 WITH a AS (
     SELECT
-    o.customer_id,
-    o.{{city_or_state}},
+    customer_id,
+    {{city_or_state}},
     ...
 ```
-- Create a new model in `models` that only contains the following code:
+- Create a new model in `models` that only contains the following 1 line of code:
 ```
 {{ get_total_paid_by_partition('customer_city') }}
 ```
@@ -147,6 +153,19 @@ WITH a AS (
 - Equally, try changing the parameter to 'customer_zip_code_prefix'
 - This macro has saved you from needing 3 separate large models. All you needed was to change the macro's parameter to allow you you find the different set of totals.
 
+## 7. Combining Macros and `for` loops
+
+- Here is an example of how to run one macro for several parameters, using a `for` loop
+
+```
+{% for city_or_state in ["customer_city", "customer_state"] %}
+
+{{ get_total_paid_by_partition('city_or_state') }}
+
+{% endfor %}
+```
+
+- Try editing this now. Instead of defining the list `["customer_city", "customer_state"]` within the `for` loops definition, try setting this as a variable before the `for` loop
 
 
 ## Summary
